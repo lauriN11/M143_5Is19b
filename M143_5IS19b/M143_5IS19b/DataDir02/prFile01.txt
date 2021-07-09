@@ -1,0 +1,2 @@
+"C:\Work\M143\bin\pruefung1_start.cmd" - this is file prFile01.txt    
+"C:\Work\M143\bin\pruefung1_start.cmd" - it's now: 31.10.2017 -  8:57:34.62     
