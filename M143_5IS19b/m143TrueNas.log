@@ -1,0 +1,394 @@
+------------------------------------------------------------------------------------------------
+*** 001S ***
+NAME                                                      USED  AVAIL     REFER  MOUNTPOINT
+Pool01                                                   20.6M  39.0G      163K  /mnt/Pool01
+Pool01/.system                                           10.9M  39.0G      163K  legacy
+Pool01/.system/configs-7bdf26d378f44463a02df9c5bc4d0ea3   140K  39.0G      140K  legacy
+Pool01/.system/cores                                      140K  1024M      140K  legacy
+Pool01/.system/rrd-7bdf26d378f44463a02df9c5bc4d0ea3      9.12M  39.0G     9.12M  legacy
+Pool01/.system/samba4                                     459K  39.0G      459K  legacy
+Pool01/.system/services                                   140K  39.0G      140K  legacy
+Pool01/.system/syslog-7bdf26d378f44463a02df9c5bc4d0ea3    639K  39.0G      639K  legacy
+Pool01/.system/webui                                      140K  39.0G      140K  legacy
+Pool01/M143_PRUEFUNG                                      140K  39.0G      140K  /mnt/Pool01/M143_PRUEFUNG
+Pool01/NFS_Share                                          296K  39.0G      296K  /mnt/Pool01/NFS_Share
+Pool01/SMB_Share                                          140K  39.0G      140K  /mnt/Pool01/SMB_Share
+Pool01/SnapshotTest                                       430K  39.0G      163K  /mnt/Pool01/SnapshotTest
+Pool01/home                                               250K  39.0G      250K  /mnt/Pool01/home
+boot-pool                                                1.16G  17.7G       24K  none
+boot-pool/ROOT                                           1.16G  17.7G       24K  none
+boot-pool/ROOT/Initial-Install                              1K  17.7G     1.16G  legacy
+boot-pool/ROOT/default                                   1.16G  17.7G     1.16G  legacy
+*** 001E ***
+------------------------------------------------------------------------------------------------
+*** 002S ***
+total 12
+-rw-r--r--  1 root  wheel  5 Mar  4 20:58 md_size
+drwxr-xr-x  7 root  wheel  7 Jul  9 16:20 Pool01
+*** 002E ***
+------------------------------------------------------------------------------------------------
+*** 003S ***
+-rw-r--r--  1 root  wheel  5 Mar  4 20:58 /mnt/md_size
+
+/mnt/Pool01:
+total 61
+drwxr-xr-x  6 root  wheel  6 May 28 09:56 home
+drwxrwx---  2 root  wheel  2 Jul  9 16:20 M143_PRUEFUNG
+drwxr-xr-x  2 root  wheel  5 Jul  9 13:40 NFS_Share
+drwxr-xr-x  2 root  wheel  5 Mar 10 15:36 SMB_Share
+drwxrwxrwx  4 root  wheel  6 Jun 18 17:21 SnapshotTest
+*** 003E ***
+------------------------------------------------------------------------------------------------
+*** 004S ***
+NAME                                                 USED  AVAIL     REFER  MOUNTPOINT
+Pool01/M143_PRUEFUNG@M143-manual-2021-07-09_16-24      0B      -      140K  -
+Pool01/M143_PRUEFUNG@M143-auto-2021-07-09_16-31        0B      -      140K  -
+Pool01/M143_PRUEFUNG@M143-auto-2021-07-09_16-32        0B      -      140K  -
+Pool01/SnapshotTest@manual-2021-06-11_15-13_init      93K      -      140K  -
+Pool01/SnapshotTest@manual-2021-06-11_15-35_Test01    93K      -      140K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-24              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-25              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-26              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-27              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-28              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-29              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-30              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-31              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-32              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-33              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-34              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-35              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-36              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-37              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-38              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-39              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-40              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-41              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-42              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-43              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-44              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-45              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-46              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-47              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-48              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-49              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-50              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-51              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-52              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-53              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-54              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-55              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-56              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-57              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-58              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_15-59              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-00              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-01              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-02              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-03              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-04              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-05              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-06              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-07              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-08              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-09              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-10              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-11              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-12              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-13              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-14              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-15              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-16              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-17              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-18              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-19              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-20              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-21              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-22              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-23              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-24              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-25              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-26              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-27              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-28              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-29              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-30              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-31              0B      -      163K  -
+Pool01/SnapshotTest@auto-2021-07-09_16-32              0B      -      163K  -
+boot-pool/ROOT/default@2021-03-04-20:00:39          1.88M      -     1.16G  -
+*** 004E ***
+------------------------------------------------------------------------------------------------
+*** 005S ***
+NAME                                                CREATION
+Pool01/M143_PRUEFUNG@M143-manual-2021-07-09_16-24   Fri Jul  9 16:25 2021
+Pool01/M143_PRUEFUNG@M143-auto-2021-07-09_16-31     Fri Jul  9 16:31 2021
+Pool01/M143_PRUEFUNG@M143-auto-2021-07-09_16-32     Fri Jul  9 16:32 2021
+Pool01/SnapshotTest@manual-2021-06-11_15-13_init    Fri Jun 11 17:13 2021
+Pool01/SnapshotTest@manual-2021-06-11_15-35_Test01  Fri Jun 11 17:36 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-24           Fri Jul  9 15:24 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-25           Fri Jul  9 15:25 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-26           Fri Jul  9 15:26 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-27           Fri Jul  9 15:27 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-28           Fri Jul  9 15:28 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-29           Fri Jul  9 15:29 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-30           Fri Jul  9 15:30 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-31           Fri Jul  9 15:31 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-32           Fri Jul  9 15:32 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-33           Fri Jul  9 15:33 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-34           Fri Jul  9 15:34 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-35           Fri Jul  9 15:35 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-36           Fri Jul  9 15:36 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-37           Fri Jul  9 15:37 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-38           Fri Jul  9 15:38 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-39           Fri Jul  9 15:39 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-40           Fri Jul  9 15:40 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-41           Fri Jul  9 15:41 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-42           Fri Jul  9 15:42 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-43           Fri Jul  9 15:43 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-44           Fri Jul  9 15:44 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-45           Fri Jul  9 15:45 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-46           Fri Jul  9 15:46 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-47           Fri Jul  9 15:47 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-48           Fri Jul  9 15:48 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-49           Fri Jul  9 15:49 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-50           Fri Jul  9 15:50 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-51           Fri Jul  9 15:51 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-52           Fri Jul  9 15:52 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-53           Fri Jul  9 15:53 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-54           Fri Jul  9 15:54 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-55           Fri Jul  9 15:55 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-56           Fri Jul  9 15:56 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-57           Fri Jul  9 15:57 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-58           Fri Jul  9 15:58 2021
+Pool01/SnapshotTest@auto-2021-07-09_15-59           Fri Jul  9 15:59 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-00           Fri Jul  9 16:00 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-01           Fri Jul  9 16:01 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-02           Fri Jul  9 16:02 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-03           Fri Jul  9 16:03 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-04           Fri Jul  9 16:04 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-05           Fri Jul  9 16:05 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-06           Fri Jul  9 16:06 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-07           Fri Jul  9 16:07 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-08           Fri Jul  9 16:08 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-09           Fri Jul  9 16:09 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-10           Fri Jul  9 16:10 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-11           Fri Jul  9 16:11 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-12           Fri Jul  9 16:12 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-13           Fri Jul  9 16:13 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-14           Fri Jul  9 16:14 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-15           Fri Jul  9 16:15 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-16           Fri Jul  9 16:16 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-17           Fri Jul  9 16:17 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-18           Fri Jul  9 16:18 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-19           Fri Jul  9 16:19 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-20           Fri Jul  9 16:20 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-21           Fri Jul  9 16:21 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-22           Fri Jul  9 16:22 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-23           Fri Jul  9 16:23 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-24           Fri Jul  9 16:24 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-25           Fri Jul  9 16:25 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-26           Fri Jul  9 16:26 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-27           Fri Jul  9 16:27 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-28           Fri Jul  9 16:28 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-29           Fri Jul  9 16:29 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-30           Fri Jul  9 16:30 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-31           Fri Jul  9 16:31 2021
+Pool01/SnapshotTest@auto-2021-07-09_16-32           Fri Jul  9 16:32 2021
+boot-pool/ROOT/default@2021-03-04-20:00:39          Thu Mar  4 21:00 2021
+*** 005E ***
+------------------------------------------------------------------------------------------------
+*** 006S ***
+total 25
+drwxr-xr-x   3 root  wheel  128 Jul  9 15:23 .
+drwxr-xr-x  20 root  wheel   36 Jul  9 15:23 ..
+-rw-r--r--   1 root  wheel    5 Mar  4 20:58 md_size
+drwxr-xr-x   7 root  wheel    7 Jul  9 16:20 Pool01
+
+/mnt/Pool01:
+total 73
+drwxr-xr-x  7 root  wheel    7 Jul  9 16:20 .
+drwxr-xr-x  3 root  wheel  128 Jul  9 15:23 ..
+drwxr-xr-x  6 root  wheel    6 May 28 09:56 home
+drwxrwx---  2 root  wheel    2 Jul  9 16:20 M143_PRUEFUNG
+drwxr-xr-x  2 root  wheel    5 Jul  9 13:40 NFS_Share
+drwxr-xr-x  2 root  wheel    5 Mar 10 15:36 SMB_Share
+drwxrwxrwx  4 root  wheel    6 Jun 18 17:21 SnapshotTest
+
+/mnt/Pool01/home:
+total 38
+drwxr-xr-x  6 root      wheel      6 May 28 09:56 .
+drwxr-xr-x  7 root      wheel      7 Jul  9 16:20 ..
+drwxr-xr-x  2 root      wheel      3 May 28 09:56 areca_config_backup
+drwxr-x---  2 bbwadmin  bbwadmin   3 Mar 10 15:32 bbwadmin
+drwxr-x---  2 bbwuser   bbwuser   10 Mar 10 15:32 bbwuser
+drwxr-xr-x  3 root      wheel      4 May 28 10:00 storage_780879494
+
+/mnt/Pool01/home/areca_config_backup:
+total 19
+drwxr-xr-x  2 root  wheel    3 May 28 09:56 .
+drwxr-xr-x  6 root  wheel    6 May 28 09:56 ..
+-rw-------  1 root  wheel  988 May 28 09:59 780879494.bcfg
+
+/mnt/Pool01/home/bbwadmin:
+total 13
+drwxr-x---  2 bbwadmin  bbwadmin  3 Mar 10 15:32 .
+drwxr-xr-x  6 root      wheel     6 May 28 09:56 ..
+-rw-------  1 bbwadmin  bbwadmin  5 Mar 10 15:32 .bash_history
+
+/mnt/Pool01/home/bbwuser:
+total 70
+drwxr-x---  2 bbwuser  bbwuser   10 Mar 10 15:32 .
+drwxr-xr-x  6 root     wheel      6 May 28 09:56 ..
+-rw-------  1 bbwuser  bbwuser  208 Jun 11 17:42 .bash_history
+-rw-r--r--  1 bbwuser  bbwuser  962 Mar 10 15:01 .cshrc
+-rw-r--r--  1 bbwuser  bbwuser  323 Mar 10 15:01 .login
+-rw-r--r--  1 bbwuser  bbwuser   91 Mar 10 15:01 .login_conf
+-rw-r--r--  1 bbwuser  bbwuser  301 Mar 10 15:01 .mail_aliases
+-rw-r--r--  1 bbwuser  bbwuser  267 Mar 10 15:01 .mailrc
+-rw-r--r--  1 bbwuser  bbwuser  978 Mar 10 15:01 .profile
+-rw-r--r--  1 bbwuser  bbwuser  694 Mar 10 15:01 .shrc
+
+/mnt/Pool01/home/storage_780879494:
+total 20
+drwxr-xr-x  3 root  wheel    4 May 28 10:00 .
+drwxr-xr-x  6 root  wheel    6 May 28 09:56 ..
+drwxr-xr-x  2 root  wheel    3 May 28 10:00 210528_data
+-rw-------  1 root  wheel  333 May 28 09:59 history
+
+/mnt/Pool01/home/storage_780879494/210528_data:
+total 2
+drwxr-xr-x  2 root  wheel    3 May 28 10:00 .
+drwxr-xr-x  3 root  wheel    4 May 28 10:00 ..
+-rw-------  1 root  wheel  137 May 28 09:59 .committed
+
+/mnt/Pool01/M143_PRUEFUNG:
+total 13
+drwxrwx---  2 root  wheel  2 Jul  9 16:20 .
+drwxr-xr-x  7 root  wheel  7 Jul  9 16:20 ..
+
+/mnt/Pool01/NFS_Share:
+total 172
+drwxr-xr-x  2 root  wheel       5 Jul  9 13:40 .
+drwxr-xr-x  7 root  wheel       7 Jul  9 16:20 ..
+-rw-r--r--  1 root  wheel    1245 Jul  9 13:40 duplicati-20210709T114006Z.dlist.zip.aes
+-rw-r--r--  1 root  wheel  114621 Jul  9 13:40 duplicati-b05475a9cb980497b898ff0c38ba3f792.dblock.zip.aes
+-rw-r--r--  1 root  wheel    1549 Jul  9 13:40 duplicati-i9b44ee2f87e948069d556848270f3949.dindex.zip.aes
+
+/mnt/Pool01/SMB_Share:
+total 14
+drwxr-xr-x  2 root  wheel  5 Mar 10 15:36 .
+drwxr-xr-x  7 root  wheel  7 Jul  9 16:20 ..
+-rw-rw-rw-  1 root  wheel  5 Mar 10 15:34 file01.txt
+-rw-r--r--  1 root  wheel  5 Mar 10 15:36 file02.txt
+-rw-------  1 root  wheel  6 Mar 10 15:36 file03.txt
+
+/mnt/Pool01/SnapshotTest:
+total 26
+drwxrwxrwx  4 root     wheel  6 Jun 18 17:21 .
+drwxr-xr-x  7 root     wheel  7 Jul  9 16:20 ..
+-rw-r--r--  1 root     wheel  1 Jun 18 16:10 lauri.txt
+drwxrwxrwx  2 root     wheel  2 Jun 18 17:20 newdir
+-rw-r--r--  1 root     wheel  0 Jun 11 17:48 test01
+drwxr-xr-x  2 bbwuser  wheel  3 Jun 11 17:48 testDir33
+
+/mnt/Pool01/SnapshotTest/newdir:
+total 13
+drwxrwxrwx  2 root  wheel  2 Jun 18 17:20 .
+drwxrwxrwx  4 root  wheel  6 Jun 18 17:21 ..
+
+/mnt/Pool01/SnapshotTest/testDir33:
+total 13
+drwxr-xr-x  2 bbwuser  wheel  3 Jun 11 17:48 .
+drwxrwxrwx  4 root     wheel  6 Jun 18 17:21 ..
+-rw-r--r--  1 root     wheel  0 Jun 11 17:48 test02
+*** 006E ***
+------------------------------------------------------------------------------------------------
+*** 007S ***
+     2        0 drwxr-xr-x    3 root                             wheel                                 128 Jul  9 15:23 /mnt
+    34       24 drwxr-xr-x    7 root                             wheel                                   7 Jul  9 16:20 /mnt/Pool01
+    34        1 drwxrwx---    2 root                             wheel                                   2 Jul  9 16:20 /mnt/Pool01/M143_PRUEFUNG
+    34        1 drwxr-xr-x    2 root                             wheel                                   5 Mar 10 15:36 /mnt/Pool01/SMB_Share
+     2        1 -rw-rw-rw-    1 root                             wheel                                   5 Mar 10 15:34 /mnt/Pool01/SMB_Share/file01.txt
+     4        1 -rw-------    1 root                             wheel                                   6 Mar 10 15:36 /mnt/Pool01/SMB_Share/file03.txt
+     3        1 -rw-r--r--    1 root                             wheel                                   5 Mar 10 15:36 /mnt/Pool01/SMB_Share/file02.txt
+    34       24 drwxr-xr-x    6 root                             wheel                                   6 May 28 09:56 /mnt/Pool01/home
+   128        1 drwxr-x---    2 bbwadmin                         bbwadmin                                3 Mar 10 15:32 /mnt/Pool01/home/bbwadmin
+    11        1 -rw-------    1 bbwadmin                         bbwadmin                                5 Mar 10 15:32 /mnt/Pool01/home/bbwadmin/.bash_history
+     2       24 drwxr-x---    2 bbwuser                          bbwuser                                10 Mar 10 15:32 /mnt/Pool01/home/bbwuser
+     7        1 -rw-r--r--    1 bbwuser                          bbwuser                                91 Mar 10 15:01 /mnt/Pool01/home/bbwuser/.login_conf
+     8       13 -rw-r--r--    1 bbwuser                          bbwuser                               267 Mar 10 15:01 /mnt/Pool01/home/bbwuser/.mailrc
+    10       13 -rw-------    1 bbwuser                          bbwuser                               208 Jun 11 17:42 /mnt/Pool01/home/bbwuser/.bash_history
+     9       13 -rw-r--r--    1 bbwuser                          bbwuser                               962 Mar 10 15:01 /mnt/Pool01/home/bbwuser/.cshrc
+     4       13 -rw-r--r--    1 bbwuser                          bbwuser                               323 Mar 10 15:01 /mnt/Pool01/home/bbwuser/.login
+     5       13 -rw-r--r--    1 bbwuser                          bbwuser                               694 Mar 10 15:01 /mnt/Pool01/home/bbwuser/.shrc
+     6       13 -rw-r--r--    1 bbwuser                          bbwuser                               978 Mar 10 15:01 /mnt/Pool01/home/bbwuser/.profile
+     3       13 -rw-r--r--    1 bbwuser                          bbwuser                               301 Mar 10 15:01 /mnt/Pool01/home/bbwuser/.mail_aliases
+   132        1 drwxr-xr-x    2 root                             wheel                                   3 May 28 09:56 /mnt/Pool01/home/areca_config_backup
+    26       13 -rw-------    1 root                             wheel                                 988 May 28 09:59 /mnt/Pool01/home/areca_config_backup/780879494.bcfg
+    12        1 drwxr-xr-x    3 root                             wheel                                   4 May 28 10:00 /mnt/Pool01/home/storage_780879494
+    13       13 -rw-------    1 root                             wheel                                 333 May 28 09:59 /mnt/Pool01/home/storage_780879494/history
+    14        1 drwxr-xr-x    2 root                             wheel                                   3 May 28 10:00 /mnt/Pool01/home/storage_780879494/210528_data
+    25        1 -rw-------    1 root                             wheel                                 137 May 28 09:59 /mnt/Pool01/home/storage_780879494/210528_data/.committed
+    34       71 drwxr-xr-x    2 root                             wheel                                   5 Jul  9 13:40 /mnt/Pool01/NFS_Share
+     3       13 -rw-r--r--    1 root                             wheel                                1549 Jul  9 13:40 /mnt/Pool01/NFS_Share/duplicati-i9b44ee2f87e948069d556848270f3949.dindex.zip.aes
+     4       13 -rw-r--r--    1 root                             wheel                                1245 Jul  9 13:40 /mnt/Pool01/NFS_Share/duplicati-20210709T114006Z.dlist.zip.aes
+     2      222 -rw-r--r--    1 root                             wheel                              114621 Jul  9 13:40 /mnt/Pool01/NFS_Share/duplicati-b05475a9cb980497b898ff0c38ba3f792.dblock.zip.aes
+    34       24 drwxrwxrwx    4 root                             wheel                                   6 Jun 18 17:21 /mnt/Pool01/SnapshotTest
+   128        1 drwxrwxrwx    2 root                             wheel                                   2 Jun 18 17:20 /mnt/Pool01/SnapshotTest/newdir
+     2        1 drwxr-xr-x    2 bbwuser                          wheel                                   3 Jun 11 17:48 /mnt/Pool01/SnapshotTest/testDir33
+     4        1 -rw-r--r--    1 root                             wheel                                   0 Jun 11 17:48 /mnt/Pool01/SnapshotTest/testDir33/test02
+     3        1 -rw-r--r--    1 root                             wheel                                   0 Jun 11 17:48 /mnt/Pool01/SnapshotTest/test01
+     6        1 -rw-r--r--    1 root                             wheel                                   1 Jun 18 16:10 /mnt/Pool01/SnapshotTest/lauri.txt
+     3        0 -rw-r--r--    1 root                             wheel                                   5 Mar  4 20:58 /mnt/md_size
+*** 007E ***
+------------------------------------------------------------------------------------------------
+*** 008S ***
+wheel:*:0:
+daemon:*:1:
+kmem:*:2:
+sys:*:3:
+tty:*:4:
+operator:*:5:uucp
+mail:*:6:
+bin:*:7:
+news:*:8:
+man:*:9:
+games:*:13:
+ftp:*:14:
+staff:*:20:
+sshd:*:22:
+smmsp:*:25:
+mailnull:*:26:
+guest:*:31:
+bind:*:53:
+proxy:*:62:
+authpf:*:63:
+_pflogd:*:64:
+_dhcp:*:65:
+uucp:*:66:
+dialer:*:68:
+network:*:69:
+audit:*:77:
+ladvd:*:78:
+www:*:80:
+ntpd:*:123:
+avahi:*:200:
+messagebus:*:201:
+nslcd:*:389:
+consul:*:469:
+nomad:*:472:
+minio:*:473:
+builtin_administrators:*:544:
+builtin_users:*:545:bbwuser,bbwadmin
+builtin_guests:*:546:
+webdav:*:666:
+hast:*:845:
+bbwgrp:*:1000:bbwuser,bbwadmin
+admgrp:*:1001:bbwadmin
+bbwuser:*:1002:
+bbwadmin:*:1003:
+m143grp:*:1004:
+nogroup:*:65533:
+nobody:*:65534:
+media:*:8675309:
+*** 008E ***
